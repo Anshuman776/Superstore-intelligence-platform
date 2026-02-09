@@ -300,7 +300,7 @@ def render_customer_segmentation_page():
         st.markdown("---"); st.markdown(p_data["narrative"])
 
 def render_home_page(df):
-    st.title("Superstore Intelligence Engine v2.0")
+    st.title("Superstore Intelligence Engine")
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Total Sales", f"${df['Total Sales'].sum():,.0f}")
