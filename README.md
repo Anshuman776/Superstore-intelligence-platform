@@ -1,4 +1,14 @@
-# Superstore Intelligence Engine v2.0
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![XGBoost](https://img.shields.io/badge/XGBoost-Model-green)
+![SHAP](https://img.shields.io/badge/Explainability-SHAP-purple)
+![GenAI](https://img.shields.io/badge/GenAI-Gemini-lightblue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
+# 📊 Superstore Intelligence Engine (ML-Driven Retail Analytics with AI Strategy Support)
+
 
 This repository contains the source code for an enterprise-grade MLOps platform designed to provide customer intelligence and operational insights for e-commerce.
 
@@ -6,9 +16,33 @@ Moving beyond simple notebooks, this project demonstrates a **modular, productio
 
 ---
 
-## 🚀 Live Demo
+🔗 **Live App:** 
 
-**[https://superstore-intelligence-v2.streamlit.app/](https://superstore-intelligence-v2.streamlit.app/)**
+**https://superstore-intelligence-platform-jwhxmbfyspsx5avyd4rdpi.streamlit.app/**
+
+---
+
+## 💼 Business Problem
+
+Retail organizations struggle with:
+
+- Predicting whether an order will be profitable before fulfillment
+- Identifying customers at risk of churn
+- Designing effective cross-sell strategies
+- Explaining model decisions to business stakeholders
+
+This platform addresses these challenges by combining machine learning
+profitability forecasting, customer segmentation, predictive market
+basket analysis, explainable AI auditing, and AI-assisted executive
+strategy generation.
+
+
+---
+
+## 🖥️ Application Preview
+
+<img src="docs/images/dashboard.png" width="100%">
+
 
 ---
 
@@ -50,6 +84,16 @@ This platform is architected as a sequential MLOps pipeline, emphasizing reprodu
 * **AI Strategy Co-Pilot**: Integrates **Gemini Pro** to read model outputs and draft strategic business memos for executives.
 
 ---
+## 🏗️ System Architecture
+
+<img src="<img width="1536" height="1024" alt="superstore" src="https://github.com/user-attachments/assets/6c8a88cd-b0a3-4b34-aec7-94d79ae3cc12" />
+" width="100%">
+
+This system architecture emphasizes reproducibility, prevention of
+training-serving skew through a shared feature store, and modular
+MLOps execution suitable for enterprise environments.
+
+---
 
 ## 🔧 Key Technologies
 
@@ -62,12 +106,38 @@ This platform is architected as a sequential MLOps pipeline, emphasizing reprodu
 
 ---
 
+## 📊 Model Performance
+
+| Model | Task | Metric | Score |
+|------|------|------|------|
+| Profitability Classifier | Profitable / Not | ROC-AUC | TBD |
+| Profit Forecaster | Regression | RMSE | TBD |
+| Customer Autoencoder | Segmentation | Reconstruction Error | TBD |
+| Market Basket Model | Co-Purchase | ROC-AUC | TBD |
+
+
+---
+
+## ☁️ Deployment
+
+The application is deployed on Streamlit Cloud.
+
+The deployment pipeline:
+
+- Installs dependencies from `requirements.txt`
+- Loads trained model artifacts from `/models`
+- Reads processed Parquet datasets from `/data/processed`
+- Uses `.streamlit/secrets.toml` for API keys
+
+
+---
+
 ## ⚙️ Setup and Execution
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/superstore-intelligence.git](https://github.com/your-username/superstore-intelligence.git)
-    cd superstore-intelligence
+    git clone https://github.com/Anshuman776/Superstore-intelligence-platform.git
+    cd Superstore-intelligence-platform
     ```
 
 2.  **Install Dependencies:**
@@ -108,3 +178,30 @@ This platform is architected as a sequential MLOps pipeline, emphasizing reprodu
 ## ❓ Architectural FAQ
 
 For a deep dive into the reasoning behind using **Parquet over CSV**, **Autoencoders vs K-Means**, and **Predictive MBA vs Apriori**, please see the detailed **[Architectural FAQ](./docs/FAQ.md)**.
+
+---
+
+## 🎯 What This Project Demonstrates
+
+- End-to-end MLOps pipeline design
+- Feature store implementation to avoid training-serving skew
+- Synthetic data generation using CTGAN
+- Explainable ML with SHAP
+- Production-grade Streamlit deployment
+- Executive-level AI reporting
+
+
+---
+
+### 👨‍💻 Author
+
+Built by Anshuman Maurya
+
+Learning and experimenting with SQL-RAG, LangChain, and Streamlit.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
