@@ -41,7 +41,8 @@ strategy generation.
 
 ## 🖥️ Application Preview
 
-<img src="docs/images/dashboard.png" width="100%">
+<img width="1920" height="1080" alt="Screenshot 2026-02-09 225934" src="https://github.com/user-attachments/assets/d91bad13-f890-4420-a710-60f471206301" />
+
 
 
 ---
@@ -86,8 +87,8 @@ This platform is architected as a sequential MLOps pipeline, emphasizing reprodu
 ---
 ## 🏗️ System Architecture
 
-<img src="<img width="1536" height="1024" alt="superstore" src="https://github.com/user-attachments/assets/6c8a88cd-b0a3-4b34-aec7-94d79ae3cc12" />
-" width="100%">
+<img width="1536" height="1024" alt="superstore" src="https://github.com/user-attachments/assets/6c8a88cd-b0a3-4b34-aec7-94d79ae3cc12" />
+
 
 This system architecture emphasizes reproducibility, prevention of
 training-serving skew through a shared feature store, and modular
