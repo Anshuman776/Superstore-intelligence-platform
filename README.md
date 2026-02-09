@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-green)
@@ -197,7 +197,6 @@ For a deep dive into the reasoning behind using **Parquet over CSV**, **Autoenco
 
 Built by Anshuman Maurya
 
-Learning and experimenting with SQL-RAG, LangChain, and Streamlit.
 
 ---
 
